@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anh2"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="36dp">
+
+    <EditText
+        android:id="@+id/confirm"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="15"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#333333"
+        android:textColorHint="#333333"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="15"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#333333"
+        android:textColorHint="#333333"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inf_Email" />
+
+    <EditText
+        android:id="@+id/inf_Email"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="15"
+        android:hint="User Mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#333333"
+        android:textColorHint="#333333"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inf_phone" />
+
+    <EditText
+        android:id="@+id/inf_phone"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="15"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColor="#333333"
+        android:textColorHint="#333333"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inf_name" />
+
+    <EditText
+        android:id="@+id/inf_name"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="15"
+        android:hint="Name"
+        android:inputType="textEmailAddress"
+        android:textColor="#333333"
+        android:textColorHint="#333333"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#090909"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirm"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:hint="Sign Up"
+        android:textColorHint="#000000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.669"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="152dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ExtraText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

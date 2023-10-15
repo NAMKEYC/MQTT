@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/sub_activity1"
+        android:title="Finger Counter"
+        />
+    <item android:id="@+id/sub_activity2"
+        android:title="Voice Recognition"
+        />
+    <item android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never"
+        />
+
+</menu>

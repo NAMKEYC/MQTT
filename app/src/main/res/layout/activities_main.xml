@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+    <!--    <ImageView-->
+<!--        android:id="@+id/likeView"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="28dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:layout_marginEnd="82dp"-->
+<!--        android:layout_marginBottom="238dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/teamName"-->
+<!--        app:srcCompat="@drawable/like" />-->
+
+    <!--    <TextView-->
+<!--        android:id="@+id/slogan"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="110dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:layout_marginEnd="110dp"-->
+<!--        android:fontFamily="sans-serif-medium"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="Came to your Sake"-->
+<!--        android:textColor="#112433"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.4"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/teamName" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:layout_weight="3"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+            android:id="@+id/teamName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="PQST APP"
+            android:textColor="#EE0E2137"
+            android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Controlling all the world"
+        android:textColor="#112433"
+        android:textSize="20sp" />
+</LinearLayout>

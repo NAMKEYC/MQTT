@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "352136314098",
+    "firebase_url": "https://iot-pqst-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "iot-pqst",
+    "storage_bucket": "iot-pqst.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352136314098:android:f86782375441762848246b",
+        "android_client_info": {
+          "package_name": "com.example.apppqst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352136314098-aq6uu9i11tg86m5e25aq63jsgkqc7m3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apppqst",
+            "certificate_hash": "d8de8f7633932d9b9678f63cf3eba9a0bbfc9c59"
+          }
+        },
+        {
+          "client_id": "352136314098-fsbst6c13upj7lilqhpvjkevemdgf2a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apppqst",
+            "certificate_hash": "b4de87a2d7ca743963773179553f227a6efaae07"
+          }
+        },
+        {
+          "client_id": "352136314098-apakabt4sn4dk0u88plmtni12c188vrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAljX5ftOYROLWzeD5yINKBflxhbmojYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352136314098-apakabt4sn4dk0u88plmtni12c188vrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352136314098:android:9a40a0c3d019d4b048246b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352136314098-7201i64tjph1k8m3g66p7qggau2495fr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "d8de8f7633932d9b9678f63cf3eba9a0bbfc9c59"
+          }
+        },
+        {
+          "client_id": "352136314098-apakabt4sn4dk0u88plmtni12c188vrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAljX5ftOYROLWzeD5yINKBflxhbmojYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352136314098-apakabt4sn4dk0u88plmtni12c188vrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
